@@ -7,6 +7,14 @@
  *    hobbies
  */
 
+let hobbies = ['swimming','wood working','board games','reading','painting'];
+for (let i of hobbies) {
+console.log(i);
+} 
+// for (let i of hobbies) {
+//      console.log(i);
+// }
+// console.log(hobbies.length);
 
 // Example output
 // 1. swimming
@@ -24,7 +32,25 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+let colors = ['teal','orange','read','teal', 'blue','purple'];
 
+let tealCount = 0;
+
+for (let i of colors){
+if (i == 'teal')
+     tealCount++;
+}
+
+console.log(tealCount);
+
+// // let colors = ['teal','orange','read','teal', 'blue','purple'];
+// let tealCount = 0;
+// for (let i = [0]; i<tealCount.length; i++) {
+//      if (i = 'teal')
+//           tealCount++;
+     
+// }
+// console.log('Teal was found', tealCount, 'times');
 
 // Example output
 // green, red, teal, orange, teal
@@ -40,7 +66,20 @@
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+let num = [2, 4, 5, 17, 9, 12];
+let oddNumbers=[];
+let evenNumbers=[];
+for(let i=0; i<oddNumbers.length; i++){
+     if(nums[i]%2 ===0){
+          evenNumbers.push(nums[i]);
+     } else {
+          oddNumbers.push(num[i]);
+     }
+}
 
+console.log(num);
+console.log(oddNumbers);
+console.log(evenNumbers);
 
 // Example output
 // 3, 7, 2, 8, 11, 4, 2
@@ -56,7 +95,16 @@
  * 3. Write a loop that adds the opposite value to the toggled array
  * 4. Output both arrays
  */
+let switches = [true, true, false, true, false, false];
+let toggled =[];
 
+for(let i=0; i < switches.length; i++) {
+          toggled.push(!i);
+     
+     }
+
+     console.log(switches)
+     console.log(toggled);
 
 // Example output
 // true, false, true, true
@@ -74,7 +122,13 @@
  *
  * Hint: Try using a while loop for this one.
  */
+let numbers=[0, 4, 6, 2, 0, 5, 0, 0, 0, 0,]
+console.log(numbers);
+while(numbers[numbers.length-1]===0){
+     numbers.pop();
 
+}
+console.log(numbers);
 
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
@@ -90,6 +144,22 @@
       and lowest numbers.
  * 3. Log the highest and lowest number to the console
  */
+let newNums=[4, 56, 32, -4, 8, 12, -63, 87, 44, -9, 76];
+let high=newNums[0];
+let low=newNums[0];
+for(let i of newNums){
+     if(i>high){
+          high=i;
+     }
+     if(i<low){
+          low=i;
+     }
+}
+console.log(high);
+console.log(low);
+
+// 2nd 
+
 
 
 // Example output
