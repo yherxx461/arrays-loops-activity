@@ -11,10 +11,6 @@ let hobbies = ['swimming','wood working','board games','reading','painting'];
 for (let i of hobbies) {
 console.log(i);
 } 
-// for (let i of hobbies) {
-//      console.log(i);
-// }
-// console.log(hobbies.length);
 
 // Example output
 // 1. swimming
@@ -40,17 +36,7 @@ for (let i of colors){
 if (i == 'teal')
      tealCount++;
 }
-
-console.log(tealCount);
-
-// // let colors = ['teal','orange','read','teal', 'blue','purple'];
-// let tealCount = 0;
-// for (let i = [0]; i<tealCount.length; i++) {
-//      if (i = 'teal')
-//           tealCount++;
-     
-// }
-// console.log('Teal was found', tealCount, 'times');
+console.log('Teal was found', tealCount, 'times');
 
 // Example output
 // green, red, teal, orange, teal
@@ -103,7 +89,7 @@ for(let i=0; i < switches.length; i++) {
      
      }
 
-     console.log(switches)
+     console.log(switches);
      console.log(toggled);
 
 // Example output
