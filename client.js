@@ -52,18 +52,18 @@ console.log('Teal was found', tealCount, 'times');
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
-let num = [2, 4, 5, 17, 9, 12];
+let nums = [2, 4, 5, 17, 9, 12];
 let oddNumbers=[];
 let evenNumbers=[];
-for(let i=0; i<oddNumbers.length; i++){
+for (let i=0; i<nums.length; i++){
      if(nums[i]%2 ===0){
           evenNumbers.push(nums[i]);
      } else {
-          oddNumbers.push(num[i]);
+          oddNumbers.push(nums[i]);
      }
 }
 
-console.log(num);
+console.log(nums);
 console.log(oddNumbers);
 console.log(evenNumbers);
 
